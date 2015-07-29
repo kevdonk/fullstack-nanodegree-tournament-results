@@ -14,14 +14,20 @@ If you have trouble, check out this [wiki entry from the helpful folks @ Udacity
 3. Start Vagrant and `cd` into `/vagrant`
     ```
     vagrant up
+    
     vagrant ssh
+    
     cd vagrant
     ```
+    
 4. Use psql to generate SQL DB
   ```
   psql
+  
   \i tournament.sql
+  
   \q
+  
   ```
 5. Run Tests
   ```
